@@ -1,0 +1,30 @@
+{
+  "name": "ng-on-wait",
+  "version": "0.0.2",
+  "author": {
+    "name": "Deepak Mohan Singh"
+  },
+  "keywords": [
+    "angular",
+    "ng-load",
+    "ng-on-load",
+    "ng-on-wait",
+    "ng-loader",
+    "ng-spinner",
+    "spinner",
+    "loader"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeepakMohanSingh/ng-on-wait.git"
+  },
+  "description": "A set of forever-increasing spinner/loader animations for your HTML templates",
+  "peerDependencies": {
+    "@angular/common": "^16.2.0",
+    "@angular/core": "^16.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
