@@ -1,27 +1,56 @@
-# AngularLoader
+# NgOnWait
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.11.
+Cool ready-to-add loaders/spinners in your HTML templates until your content is loaded, without writing those hard CSS and JavaScript lines of code! 
 
-## Development server
+- [Demo](https://github.com/DeepakMohanSingh/ng-on-wait)
+- [Compatibility](https://github.com/DeepakMohanSingh/ng-on-wait)
+- [Installation](https://github.com/DeepakMohanSingh/ng-on-wait)
+- [Setup](https://github.com/DeepakMohanSingh/ng-on-wait)
+- [Play with it](https://github.com/DeepakMohanSingh/ng-on-wait)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Demo
 
-## Code scaffolding
+Here's a live demo of all that are included in this library.
+- [Live demo](https://github.com/DeepakMohanSingh/ng-on-wait)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Compatibility
 
-## Build
+This is built for Angular versions 16 and above. Install the latest version to stay updated with the latest designs and functionalities without any peer dependencies.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+Install the package 'ng-on-wait' from [NPM](https://www.npmjs.com/package/ng-on-wait)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```shell
+npm install ng-on-wait
+```
 
-## Running end-to-end tests
+## Setup
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+`NgOnWaitModule` should be imported into the module where you are going to use this.
 
-## Further help
+```typescript
+...
+import { NgOnWaitModule } from 'ng-on-wait';
+...
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+@NgModule({
+  declarations: [
+    ...
+  ],
+  imports: [
+    ...
+    NgxSkeletonLoaderModule,
+    ...
+  ],
+  providers: []
+})
+```
+
+## Play with it
+
+| Input | Required | Default | Purpose |
+| -------- | -------- | -------- | ------ |
+| Cell 1   | Cell 2   | Cell 3   | cell 6
+| Cell 4   | Cell 5   | Cell 6   | cell 8 |
+
