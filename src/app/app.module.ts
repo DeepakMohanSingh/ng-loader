@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { NgOnWaitModule } from 'dist/ng-on-wait';
+import { NgOnWaitModule } from 'projects/ng-on-wait/src/public-api';
 
 @NgModule({
   declarations: [
