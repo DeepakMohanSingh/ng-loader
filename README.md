@@ -6,7 +6,7 @@ Cool ready-to-add loaders/spinners in your HTML templates until your content is 
 - [Compatibility](https://github.com/DeepakMohanSingh/ng-on-wait/blob/main/README.md#compatibility)
 - [Installation](https://github.com/DeepakMohanSingh/ng-on-wait/blob/main/README.md#installation)
 - [Setup](https://github.com/DeepakMohanSingh/ng-on-wait/blob/main/README.md#setup)
-- [Play with it](https://github.com/DeepakMohanSingh/ng-on-wait/blob/main/README.md#play with it)
+- [Play with it](https://github.com/DeepakMohanSingh/ng-on-wait/tree/main#play-with-it)
 
 ## Demo
 
@@ -51,8 +51,8 @@ import { NgOnWaitModule } from 'ng-on-wait';
 
 | Input | Required | Supported Value | Default Value | Purpose |
 | - | - | - | - | - |
-| type | No |  'default' | 'default'  | The type of loader
-| size | No | '<your_number>px', '<your_number>rem', '<your_number>em' | '1rem' | The size of the loader
-| align | No | 'left, 'center', 'right' | 'center' | The alignment of the loader element within the parent element
-| display | No | 'block, 'inline', 'inline-block' | 'block' | The display type of the loader element
+| type | no |  'default' | 'default'  | The type of loader
+| size | no | '<your_number>px', '<your_number>rem', '<your_number>em' | '1rem' | The size of the loader
+| align | no | 'left, 'center', 'right' | 'center' | The alignment of the loader element within the parent element
+| display | no | 'block, 'inline', 'inline-block' | 'block' | The display type of the loader element
 
