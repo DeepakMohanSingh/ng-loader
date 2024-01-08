@@ -39,7 +39,7 @@ import { NgOnWaitModule } from 'ng-on-wait';
   ],
   imports: [
     ...
-    NgxSkeletonLoaderModule,
+    NgOnWaitModule,
     ...
   ],
   providers: []
