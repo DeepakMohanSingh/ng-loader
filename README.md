@@ -10,8 +10,7 @@ Cool ready-to-add loaders/spinners in your HTML templates until your content is 
 
 ## Demo
 
-Here's a live demo of all that are included in this library.
-- [Live demo](https://github.com/DeepakMohanSingh/ng-on-wait)
+Here's a [live demo](https://github.com/DeepakMohanSingh/ng-on-wait) of all that are included in this library.
 
 ## Compatibility
 
