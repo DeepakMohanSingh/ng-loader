@@ -2,11 +2,11 @@
 
 Cool ready-to-add loaders/spinners in your HTML templates until your content is loaded, without writing those hard CSS and JavaScript lines of code! 
 
-- [Demo](https://github.com/DeepakMohanSingh/ng-on-wait)
-- [Compatibility](https://github.com/DeepakMohanSingh/ng-on-wait)
-- [Installation](https://github.com/DeepakMohanSingh/ng-on-wait)
-- [Setup](https://github.com/DeepakMohanSingh/ng-on-wait)
-- [Play with it](https://github.com/DeepakMohanSingh/ng-on-wait)
+- [Demo](https://github.com/DeepakMohanSingh/ng-on-wait/blob/main/README.md#demo)
+- [Compatibility](https://github.com/DeepakMohanSingh/ng-on-wait/blob/main/README.md#compatibility)
+- [Installation](https://github.com/DeepakMohanSingh/ng-on-wait/blob/main/README.md#installation)
+- [Setup](https://github.com/DeepakMohanSingh/ng-on-wait/blob/main/README.md#setup)
+- [Play with it](https://github.com/DeepakMohanSingh/ng-on-wait/blob/main/README.md#play with it)
 
 ## Demo
 
@@ -15,7 +15,7 @@ Here's a live demo of all that are included in this library.
 
 ## Compatibility
 
-This is built for Angular versions 16 and above. Install the latest version to stay updated with the latest designs and functionalities without any peer dependencies.
+This is built for Angular versions 16 and later. Install the latest version to stay updated with the latest designs and functionalities without any peer dependencies.
 
 ## Installation
 
@@ -49,8 +49,10 @@ import { NgOnWaitModule } from 'ng-on-wait';
 
 ## Play with it
 
-| Input | Required | Default | Purpose |
-| -------- | -------- | -------- | ------ |
-| Cell 1   | Cell 2   | Cell 3   | cell 6
-| Cell 4   | Cell 5   | Cell 6   | cell 8 |
+| Input | Required | Supported Value | Default Value | Purpose |
+| - | - | - | - | - |
+| type | No |  'default' | 'default'  | The type of loader
+| size | No | '<your_number>px', '<your_number>rem', '<your_number>em' | '1rem' | The size of the loader
+| align | No | 'left, 'center', 'right' | 'center' | The alignment of the loader element within the parent element
+| display | No | 'block, 'inline', 'inline-block' | 'block' | The display type of the loader element
 
