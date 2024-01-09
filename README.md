@@ -1,6 +1,7 @@
 # NgOnWait
 
-Cool ready-to-add loaders/spinners in your HTML templates until your content is loaded, without writing those hard CSS and JavaScript lines of code! 
+Have boring, less-intuitive user experience that lacks loading/progress indicators?
+Here you go! Now add loaders/spinners of your choice in your Angular templates without writing those hard CSS and JavaScript/TypeScript lines of code! 
 
 - [Demo](https://github.com/DeepakMohanSingh/ng-on-wait/blob/main/README.md#demo)
 - [Compatibility](https://github.com/DeepakMohanSingh/ng-on-wait/blob/main/README.md#compatibility)
